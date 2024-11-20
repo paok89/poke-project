@@ -22,7 +22,7 @@ function initializeLoginForm() {
 
     validateLogin(username, password, validUser)
       ? handleLoginSuccess(username)
-      : displayError(errorMessage, "Usuario o contraseña incorrectos.");
+      : displayError(errorMessage, "Usuario o contraseña incorrectos");
   });
 }
 

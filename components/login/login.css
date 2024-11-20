@@ -7,12 +7,10 @@
 
 html {
   height: 100%;
-  font-family: "Roboto", sans-serif;
-  background: linear-gradient(
-    135deg,
-    #74ebd5,
-    #acb6e5
-  ); /* Degradado suave y limpio */
+  font-family: "Play", sans-serif;
+  background-image: url(/img/pokeball\ right.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,8 +26,8 @@ html {
 
 .login-box {
   background-color: white;
-  padding: 40px 35px;
-  border-radius: 15px;
+  padding: 60px 80px;
+  border-radius: 5px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra ligera */
   max-width: 400px; /* Tamaño más amplio */
   width: 100%;
@@ -51,23 +49,25 @@ input {
   border: 1px solid #ddd;
   border-radius: 10px;
   font-size: 16px;
+  font-family: "Play", sans-serif;
   background-color: #f9f9f9;
   color: #333;
   transition: border-color 0.2s ease;
 }
 
 input:focus {
-  border-color: #74ebd5; /* Color que hace juego con el degradado */
+  border-color: black; /* Color que hace juego con el degradado */
   outline: none;
 }
 
 button {
-  background-color: #3b8070; /* Botón color menta */
+  background-color: black; /* Botón color menta */
   color: white;
   border: none;
   padding: 15px;
   border-radius: 10px;
   font-size: 16px;
+  font-family: "Play", sans-serif;
   width: 100%;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-  background-color: #2f6559; /* Color más oscuro al hacer hover */
+  background-color: #c30328; /* Color más oscuro al hacer hover */
   transform: translateY(-3px); /* Pequeño efecto de elevación */
 }
 
@@ -93,10 +93,10 @@ button:hover {
 }
 
 .extra-options a {
-  color: #2f6559;
+  color: #595b5a;
   text-decoration: none;
 }
 
 .extra-options a:hover {
-  color: #57c4ab;
+  color: black;
 }
