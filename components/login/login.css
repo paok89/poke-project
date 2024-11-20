@@ -56,7 +56,7 @@ input {
 }
 
 input:focus {
-  border-color: black; /* Color que hace juego con el degradado */
+  border-color: #c8ad03; /* Color que hace juego con el degradado */
   outline: none;
 }
 
@@ -75,7 +75,7 @@ button {
 }
 
 button:hover {
-  background-color: #c30328; /* Color más oscuro al hacer hover */
+  background-color: #c8ad03; /* Color más oscuro al hacer hover */
   transform: translateY(-3px); /* Pequeño efecto de elevación */
 }
 
@@ -98,5 +98,5 @@ button:hover {
 }
 
 .extra-options a:hover {
-  color: black;
+  color: #c8ad03;
 }

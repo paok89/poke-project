@@ -43,11 +43,11 @@ header {
 }
 
 #search {
+  font-family: "Play", sans-serif;
   padding: 8px;
   width: 200px;
   font-size: 16px;
-  border-radius: 8px;
-  font-family: "Play", sans-serif;
+  border-radius: 8px; 
 }
 
 #type-filter {
